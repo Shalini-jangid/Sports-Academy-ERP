@@ -1,7 +1,7 @@
 // src/pages/coach/Reports.jsx
 import React, { useState, useEffect } from 'react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
-import { BarChart3, Download, Filter, Calendar, Users, TrendingUp } from 'lucide-react';
+import { BarChart3, Download, Filter, Calendar, Users, TrendingUp, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const CoachReports = () => {

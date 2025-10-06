@@ -101,7 +101,7 @@ const Sidebar = ({ isOpen, onClose }) => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <div className="h-8 w-8 bg-primary-100 rounded-full flex items-center justify-center">
-                  <User className="h-4 w-4 text-primary-600" />
+                  <Users className="h-4 w-4 text-primary-600" />
                 </div>
               </div>
               <div className="ml-3">

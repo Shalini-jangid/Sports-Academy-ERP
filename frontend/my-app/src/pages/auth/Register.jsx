@@ -59,9 +59,9 @@ const Register = () => {
       <div className="max-w-2xl w-full space-y-8">
         <div>
           <div className="flex justify-center">
-            <Trophy  className="h-12 w-12 text-primary-600" />
+            <Trophy  className="h-12 w-12 text-emerald-600" />
           </div>
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+          <h2 className="mt-6 text-center text-3xl font-bold text-sky-900">
             Create your account
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
@@ -87,7 +87,7 @@ const Register = () => {
             {/* Basic Information */}
             <div className="space-y-4">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="name" className="block text-sm font-medium text-sky-900">
                   Full Name *
                 </label>
                 <div className="mt-1 relative">
@@ -106,7 +106,7 @@ const Register = () => {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="email" className="block text-sm font-medium text-sky-900">
                   Email Address *
                 </label>
                 <div className="mt-1 relative">
@@ -125,7 +125,7 @@ const Register = () => {
               </div>
 
               <div>
-                <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="password" className="block text-sm font-medium text-sky-900">
                   Password *
                 </label>
                 <input
@@ -142,7 +142,7 @@ const Register = () => {
               </div>
 
               <div>
-                <label htmlFor="role" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="role" className="block text-sm font-medium text-sky-900">
                   Role *
                 </label>
                 <select
@@ -161,7 +161,7 @@ const Register = () => {
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="phone" className="block text-sm font-medium text-sky-900">
                   Phone Number
                 </label>
                 <div className="mt-1 relative">
@@ -184,7 +184,7 @@ const Register = () => {
               {formData.role === 'student' && (
                 <>
                   <div>
-                    <label htmlFor="class" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="class" className="block text-sm font-medium text-sky-900">
                       Class *
                     </label>
                     <div className="mt-1 relative">
@@ -203,7 +203,7 @@ const Register = () => {
                   </div>
 
                   <div>
-                    <label htmlFor="sport" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="sport" className="block text-sm font-medium text-sky-900">
                       Sport *
                     </label>
                     <div className="mt-1 relative">
@@ -222,7 +222,7 @@ const Register = () => {
                   </div>
 
                   <div>
-                    <label htmlFor="enrollmentId" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="enrollmentId" className="block text-sm font-medium text-sky-900">
                       Enrollment ID *
                     </label>
                     <div className="mt-1 relative">
@@ -290,7 +290,7 @@ const Register = () => {
             <button
               type="submit"
               disabled={loading}
-              className="btn btn-primary w-full py-3"
+              className="btn btn-primary-400 w-full py-3"
             >
               {loading ? 'Creating account...' : 'Create account'}
             </button>
@@ -299,7 +299,7 @@ const Register = () => {
           <div className="text-center">
             <Link
               to="/login"
-              className="font-medium text-primary-600 hover:text-primary-500 transition-colors"
+              className="font-medium text-emerald-600 hover:text-emerald-800 transition-colors"
             >
               Already have an account? Sign in
             </Link>
